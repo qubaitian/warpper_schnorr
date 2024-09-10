@@ -17,7 +17,7 @@ fn private_to_public(private_key: String) -> anyhow::Result<String> {
 
 #[pyfunction]
 fn private_key_to_public_key (private_key: String) -> String{
-    let result = private_to_public(private_key).unwrap();
+    let result = private_to_public(private_key).expect("111");
     result
 }
 
