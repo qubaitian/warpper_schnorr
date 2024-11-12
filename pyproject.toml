@@ -4,7 +4,7 @@ build-backend = "maturin"
 
 [project]
 name = "warpper_schnorr"
-version = "0.1.2"
+version = "0.1.5"
 
 requires-python = ">=3.8"
 classifiers = [
